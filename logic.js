@@ -2,7 +2,7 @@
 const earthquakeUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson"
 const plateUrl = "plate_boundaries.json";
 const circleScale = 15000;
-const timeDiff = 5e6;
+const timeDiff = 8e6;
 // Perform a GET request to the query URL
 d3.json(earthquakeUrl, function(error, response) {
   if (error) console.warn(error);
